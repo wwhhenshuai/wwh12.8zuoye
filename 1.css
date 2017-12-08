@@ -1,0 +1,52 @@
+ul,ol,li,a{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	text-decoration: none;
+}
+.box{
+	width: 600px;
+	background-color: lime;
+	margin: 0 auto;
+}
+.ul1{
+	width: 100%;
+}
+.ul1 a{
+	text-decoration: none;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	height:30px;
+	line-height: 30px;
+	color:white;
+	font-weight: bold;
+}
+.ul1{
+	list-style: none;
+	overflow: hidden;
+}
+.li{
+	color: red;
+}
+.mum li{
+	float: left;
+	list-style: none;
+	padding: 5px 8px;
+	border: 1px solid #CCCCCC;
+	margin: 0 5px;
+}
+.txtLi{
+	background: #CCCCC6;
+	color: #0099FF;
+}
+ol>div{
+	width: 400px;
+	margin: 0 auto;
+}
+ol>div>a>li{
+	text-align:center;
+	height: 35px;
+	line-height: 35px;
+	color:white;
+}
